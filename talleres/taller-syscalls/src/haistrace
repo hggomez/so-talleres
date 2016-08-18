@@ -1,0 +1,313 @@
+10907 execve("./hai", ["./hai", "ls"], [/* 75 vars */]) = 0
+10907 brk(0)                            = 0x8624000
+10907 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10907 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff7763000
+10907 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/i686", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/i686", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/i686", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/i686", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/sse2/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/sse2/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/sse2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/sse2", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/cmov/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/cmov", 0xff902720) = -1 ENOENT (No such file or directory)
+10907 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10907 stat64("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+10907 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+10907 fstat64(3, {st_mode=S_IFREG|0644, st_size=110350, ...}) = 0
+10907 mmap2(NULL, 110350, PROT_READ, MAP_PRIVATE, 3, 0) = 0xfffffffff7748000
+10907 close(3)                          = 0
+10907 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10907 open("/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+10907 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0P\234\1\0004\0\0\0"..., 512) = 512
+10907 fstat64(3, {st_mode=S_IFREG|0755, st_size=1754876, ...}) = 0
+10907 mmap2(NULL, 1763964, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xfffffffff7599000
+10907 mprotect(0xf7741000, 4096, PROT_NONE) = 0
+10907 mmap2(0xf7742000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a8000) = 0xfffffffff7742000
+10907 mmap2(0xf7745000, 10876, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xfffffffff7745000
+10907 close(3)                          = 0
+10907 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff7598000
+10907 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff7597000
+10907 set_thread_area(0xff902bf0)       = 0
+10907 mprotect(0xf7742000, 8192, PROT_READ) = 0
+10907 mprotect(0x8049000, 4096, PROT_READ) = 0
+10907 mprotect(0xf7789000, 4096, PROT_READ) = 0
+10907 munmap(0xf7748000, 110350)        = 0
+10907 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0) = 10908
+10907 rt_sigaction(SIGINT, {0x8048615, [INT], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+10908 rt_sigaction(SIGURG, {0x80485e4, [URG], SA_RESTART},  <unfinished ...>
+10907 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+10908 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8) = 0
+10907 <... rt_sigprocmask resumed> [], 8) = 0
+10907 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+10907 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+10907 nanosleep({1, 0}, 0xff902b4c)     = 0
+10907 write(1, "sup!\n", 5)             = 5
+10907 kill(10908, SIGURG)               = 0
+10908 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=10907, si_uid=1000} ---
+10907 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+10908 write(1, "ya va!\n", 7 <unfinished ...>
+10907 <... rt_sigprocmask resumed> [], 8) = 0
+10907 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+10908 <... write resumed> )             = 7
+10907 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8) = 0
+10908 sigreturn( <unfinished ...>
+10907 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+10908 <... sigreturn resumed> )         = 0
+10907 <... rt_sigprocmask resumed> NULL, 8) = 0
+10907 nanosleep({1, 0}, 0xff902b4c)     = 0
+10907 write(1, "sup!\n", 5)             = 5
+10907 kill(10908, SIGURG)               = 0
+10908 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=10907, si_uid=1000} ---
+10907 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+10908 write(1, "ya va!\n", 7 <unfinished ...>
+10907 <... rt_sigprocmask resumed> [], 8) = 0
+10907 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+10908 <... write resumed> )             = 7
+10907 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8) = 0
+10908 sigreturn( <unfinished ...>
+10907 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+10908 <... sigreturn resumed> )         = 1
+10907 <... rt_sigprocmask resumed> NULL, 8) = 0
+10907 nanosleep({1, 0}, 0xff902b4c)     = 0
+10907 write(1, "sup!\n", 5)             = 5
+10907 kill(10908, SIGURG)               = 0
+10908 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=10907, si_uid=1000} ---
+10907 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+10908 write(1, "ya va!\n", 7 <unfinished ...>
+10907 <... rt_sigprocmask resumed> [], 8) = 0
+10907 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+10908 <... write resumed> )             = 7
+10907 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8) = 0
+10908 sigreturn( <unfinished ...>
+10907 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+10908 <... sigreturn resumed> )         = 2
+10907 <... rt_sigprocmask resumed> NULL, 8) = 0
+10907 nanosleep({1, 0}, 0xff902b4c)     = 0
+10907 write(1, "sup!\n", 5)             = 5
+10907 kill(10908, SIGURG)               = 0
+10908 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=10907, si_uid=1000} ---
+10907 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+10908 write(1, "ya va!\n", 7 <unfinished ...>
+10907 <... rt_sigprocmask resumed> [], 8) = 0
+10907 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+10908 <... write resumed> )             = 7
+10907 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8) = 0
+10908 sigreturn( <unfinished ...>
+10907 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+10908 <... sigreturn resumed> )         = 3
+10907 <... rt_sigprocmask resumed> NULL, 8) = 0
+10907 nanosleep({1, 0}, 0xff902b4c)     = 0
+10907 write(1, "sup!\n", 5)             = 5
+10907 kill(10908, SIGURG)               = 0
+10908 --- SIGURG {si_signo=SIGURG, si_code=SI_USER, si_pid=10907, si_uid=1000} ---
+10907 rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+10908 write(1, "ya va!\n", 7 <unfinished ...>
+10907 <... rt_sigprocmask resumed> [], 8) = 0
+10907 rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+10908 <... write resumed> )             = 7
+10907 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8) = 0
+10908 sigreturn( <unfinished ...>
+10907 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+10908 <... sigreturn resumed> )         = 4
+10907 <... rt_sigprocmask resumed> NULL, 8) = 0
+10907 nanosleep({1, 0},  <unfinished ...>
+10908 getppid()                         = 10907
+10908 kill(10907, SIGINT <unfinished ...>
+10907 <... nanosleep resumed> {1, 24160}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+10908 <... kill resumed> )              = 0
+10907 --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=10908, si_uid=1000} ---
+10907 wait4(-1,  <unfinished ...>
+10908 execve("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/bin/intel64/ls", ["ls"], [/* 57 vars */]) = -1 ENOENT (No such file or directory)
+10908 execve("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/bin/intel64/ls", ["ls"], [/* 57 vars */]) = -1 ENOENT (No such file or directory)
+10908 execve("/usr/local/sbin/ls", ["ls"], [/* 57 vars */]) = -1 ENOENT (No such file or directory)
+10908 execve("/usr/local/bin/ls", ["ls"], [/* 57 vars */]) = -1 ENOENT (No such file or directory)
+10908 execve("/usr/sbin/ls", ["ls"], [/* 57 vars */]) = -1 ENOENT (No such file or directory)
+10908 execve("/usr/bin/ls", ["ls"], [/* 57 vars */]) = -1 ENOENT (No such file or directory)
+10908 execve("/sbin/ls", ["ls"], [/* 57 vars */]) = -1 ENOENT (No such file or directory)
+10908 execve("/bin/ls", ["ls"], [/* 57 vars */]) = 0
+10908 brk(0)                            = 0x6d9000
+10908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10908 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5eceb32000
+10908 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/x86_64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/x86_64", 0x7ffe5224d930) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/tls", 0x7ffe5224d930) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/x86_64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/x86_64", 0x7ffe5224d930) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/x86_64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/x86_64", 0x7ffe5224d930) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/tls", 0x7ffe5224d930) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/x86_64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/x86_64", 0x7ffe5224d930) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 stat("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+10908 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+10908 fstat(3, {st_mode=S_IFREG|0644, st_size=110350, ...}) = 0
+10908 mmap(NULL, 110350, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5eceb17000
+10908 close(3)                          = 0
+10908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10908 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+10908 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0[\0\0\0\0\0\0"..., 832) = 832
+10908 fstat(3, {st_mode=S_IFREG|0644, st_size=134296, ...}) = 0
+10908 mmap(NULL, 2238192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ece6ef000
+10908 mprotect(0x7f5ece70f000, 2093056, PROT_NONE) = 0
+10908 mmap(0x7f5ece90e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7f5ece90e000
+10908 mmap(0x7f5ece910000, 5872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5ece910000
+10908 close(3)                          = 0
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10908 open("/lib/x86_64-linux-gnu/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3
+10908 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\34\0\0\0\0\0\0"..., 832) = 832
+10908 fstat(3, {st_mode=S_IFREG|0644, st_size=31168, ...}) = 0
+10908 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5eceb16000
+10908 mmap(NULL, 2126336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ece4e7000
+10908 mprotect(0x7f5ece4ee000, 2093056, PROT_NONE) = 0
+10908 mmap(0x7f5ece6ed000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f5ece6ed000
+10908 close(3)                          = 0
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10908 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+10908 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+10908 fstat(3, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0
+10908 mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ece122000
+10908 mprotect(0x7f5ece2dc000, 2097152, PROT_NONE) = 0
+10908 mmap(0x7f5ece4dc000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ba000) = 0x7f5ece4dc000
+10908 mmap(0x7f5ece4e2000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5ece4e2000
+10908 close(3)                          = 0
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/libpcre.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/libpcre.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10908 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+10908 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\27\0\0\0\0\0\0"..., 832) = 832
+10908 fstat(3, {st_mode=S_IFREG|0644, st_size=252032, ...}) = 0
+10908 mmap(NULL, 2347200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ecdee4000
+10908 mprotect(0x7f5ecdf21000, 2093056, PROT_NONE) = 0
+10908 mmap(0x7f5ece120000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c000) = 0x7f5ece120000
+10908 close(3)                          = 0
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10908 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+10908 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+10908 fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+10908 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5eceb15000
+10908 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ecdce0000
+10908 mprotect(0x7f5ecdce3000, 2093056, PROT_NONE) = 0
+10908 mmap(0x7f5ecdee2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f5ecdee2000
+10908 close(3)                          = 0
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 open("/home/javito/intel/compilers_and_libraries_2016.2.181/linux/compiler/lib/intel64_lin/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10908 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10908 open("/lib/x86_64-linux-gnu/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+10908 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\20\0\0\0\0\0\0"..., 832) = 832
+10908 fstat(3, {st_mode=S_IFREG|0644, st_size=18624, ...}) = 0
+10908 mmap(NULL, 2113760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ecdadb000
+10908 mprotect(0x7f5ecdadf000, 2093056, PROT_NONE) = 0
+10908 mmap(0x7f5ecdcde000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f5ecdcde000
+10908 close(3)                          = 0
+10908 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5eceb14000
+10908 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5eceb12000
+10908 arch_prctl(ARCH_SET_FS, 0x7f5eceb12840) = 0
+10908 mprotect(0x7f5ece4dc000, 16384, PROT_READ) = 0
+10908 mprotect(0x7f5ecdcde000, 4096, PROT_READ) = 0
+10908 mprotect(0x7f5ecdee2000, 4096, PROT_READ) = 0
+10908 mprotect(0x7f5ece120000, 4096, PROT_READ) = 0
+10908 mprotect(0x7f5ece6ed000, 4096, PROT_READ) = 0
+10908 mprotect(0x7f5ece90e000, 4096, PROT_READ) = 0
+10908 mprotect(0x619000, 4096, PROT_READ) = 0
+10908 mprotect(0x7f5eceb34000, 4096, PROT_READ) = 0
+10908 munmap(0x7f5eceb17000, 110350)    = 0
+10908 statfs("/sys/fs/selinux", 0x7ffe5224e140) = -1 ENOENT (No such file or directory)
+10908 statfs("/selinux", 0x7ffe5224e140) = -1 ENOENT (No such file or directory)
+10908 brk(0)                            = 0x6d9000
+10908 brk(0x6fa000)                     = 0x6fa000
+10908 open("/proc/filesystems", O_RDONLY) = 3
+10908 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+10908 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5eceb31000
+10908 read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 311
+10908 read(3, "", 1024)                 = 0
+10908 close(3)                          = 0
+10908 munmap(0x7f5eceb31000, 4096)      = 0
+10908 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+10908 fstat(3, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+10908 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5ecd3f9000
+10908 close(3)                          = 0
+10908 ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+10908 ioctl(1, TIOCGWINSZ, {ws_row=41, ws_col=151, ws_xpixel=0, ws_ypixel=0}) = 0
+10908 openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+10908 getdents(3, /* 7 entries */, 32768) = 200
+10908 getdents(3, /* 0 entries */, 32768) = 0
+10908 close(3)                          = 0
+10908 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+10908 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5eceb31000
+10908 write(1, "hai  hai64  haistrace  launch.c "..., 42) = 42
+10908 close(1)                          = 0
+10908 munmap(0x7f5eceb31000, 4096)      = 0
+10908 close(2)                          = 0
+10908 exit_group(0)                     = ?
+10908 +++ exited with 0 +++
+10907 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10908
+10907 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10908, si_status=0, si_utime=500, si_stime=0} ---
+10907 exit_group(0)                     = ?
+10907 +++ exited with 0 +++
