@@ -1,7 +1,8 @@
 #include "hai2.h"
 
 int contador = 0;
-int main(int argc, char const *argv[]){
+
+int main(int argc, char *argv[]){
     
     int status;
     pid_t child;
@@ -14,11 +15,10 @@ int main(int argc, char const *argv[]){
     child = fork();
     if(child == 0){
         signal(SIGURG, &handH);
-    while(contador < 5){    
-    }
+    while(contador < 5){}
     pid_t padre = getppid();
     kill(padre, SIGINT);
-    execvp(argv[1], argv+1);
+    execvp(argv[1], argv+1);    
     exit(0);
     }
 

@@ -3,14 +3,15 @@ NASMFLAGS= -g -ggdb
 LDFLAGS=-static -m32 -L'/usr/lib32'
 CC=gcc
 
-BINS=launch
+BINS=justiciero
 
 OBJS=$(BINS:=.o)
 
 all: $(BINS)
 
 # Dependencias
-launch.o: launch.c
+justiciero.o: justiciero.c
+
 
 clean:
 	rm -rf $(OBJS) $(BINS)
